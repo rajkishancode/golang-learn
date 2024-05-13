@@ -1,4 +1,8 @@
 package main
 import "fmt"
-
-func main(){}
+//  create string literal
+func main(){
+	a := `"Hello 
+	world"`
+  fmt.Println(a)
+}
