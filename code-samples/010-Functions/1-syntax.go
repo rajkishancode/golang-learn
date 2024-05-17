@@ -1,6 +1,7 @@
 package main
 import "fmt"
-
+//syntax for function ->
+//func (r receiver) identifier(parameters) (return(s)) {code}
 func main(){
 	foo()
 	bar("James")

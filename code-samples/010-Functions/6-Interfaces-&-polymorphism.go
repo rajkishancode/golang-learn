@@ -67,15 +67,21 @@ func main() {
 		first: "Dr",
 		last:  "No",
 	}
-	fmt.Println(sa1)
-	sa1.speak()
-	sa2.speak()
+	fmt.Println(sa1)  //{{James Bond } true}
+	sa1.speak()      // I am James Bond the secretAgent speak
+	sa2.speak()		 // I am Miss Moneypenny the secretAgent speak
 
-	fmt.Println(p1)
+	fmt.Println(p1)   // {Dr No}
 
 	bar(sa1) // here bar able to take both secretAgent and person type because both are type human and we passed human in bar
 	bar(sa2) // and this is POLYMORPHISM POLY-MANY , MORPHISM -CHANGE.
-	bar(p1)
+	bar(p1) 
+	//i was in the barrrrr James
+	//i was in the barrrrr {{James Bond} true}
+	//i was in the barrrrr Miss
+	//i was in the barrrrr { {Miss MoneyPenny} true}
+	//i was in the barrrrr Dr
+	//I was passed in the bar {Dr No}
 
 	// conversion
 	var x hotdog = 42
