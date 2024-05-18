@@ -13,3 +13,6 @@ s = sum (x...)  // three dots on RIGHT side UNPACKING / spread operator in js
 func sum(xi ...int){ // three dots on LEFT side on type PACKING slice of number/ rest operator in js
                     // (...int ) - this is a variadic parameter becomes slice of int
 }
+
+//syntax for function ->
+//func (r receiver) identifier(parameters) (return(s)) {code}
