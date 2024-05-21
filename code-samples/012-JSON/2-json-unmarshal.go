@@ -37,3 +37,6 @@ func main(){
 		fmt.Println(v.First,v.Last,v.Age);
 	}
 }
+
+
+//Note - website json-to-go will give you struct for json to go conversion
