@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"fmt"
 	"sync"
-	"time"
+	// "time"
 )
 
 //MUTEX - something which is mutually exclusive
@@ -13,7 +13,7 @@ import (
 
 
 func main(){
-	fmt.Println("Goroutines",runtime.NumGoroutine())
+	fmt.Println("Goroutines start",runtime.NumGoroutine())
 	fmt.Println("NumCPU",runtime.NumCPU())
 	
 	counter := 0
@@ -36,11 +36,11 @@ func main(){
 			mutex.Unlock()
 			wg.Done() 		  // will done the go routine
 			}()
-			fmt.Println("Goroutines",runtime.NumGoroutine())
+			fmt.Println("Goroutines mid",runtime.NumGoroutine())
 	}
 	
 	wg.Wait() // it waits until the counter in wait group comes down to ZERO.
-	fmt.Println("Goroutines",runtime.NumGoroutine())
+	fmt.Println("Goroutines end",runtime.NumGoroutine())
 	fmt.Println("count",counter)
 }
 
