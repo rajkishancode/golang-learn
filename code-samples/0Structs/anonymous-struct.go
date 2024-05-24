@@ -39,5 +39,5 @@ func main() {
 //why use anonmous struct
  // we use it to avoid code pollution
  // - to keep code lean and clean
- // - not having extraneous types and varibles when you dont wanna need them
+ // - not having extraneous types and variables when you dont wanna need them
  // It you only want to use a struct in one little area YOU CAN MAKE A ANONYMOUS STRUCT
