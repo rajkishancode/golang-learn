@@ -1,5 +1,7 @@
 There are multiple concurrent design pattern
+
 1.fan-in  - Taking values from many channels and putting those values onto one channel
+
  Pretty common concurrent design pattern
    - We have a chunk of work
    - i dont know how much it gonna be
@@ -8,5 +10,6 @@ There are multiple concurrent design pattern
    - and when we get results
    - we fan those result back in to another channels
    - we will get a channel just for results
+
  2.fan-out design pattern
  
